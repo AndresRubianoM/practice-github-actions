@@ -7,7 +7,7 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-# Curso Básico de GitHub Actions
+# GitHub Actions
 
 _Aprende los conceptos básicos para crear tu primer flujo de CI/CD para tus proyectos con GitHub Actions_
 
@@ -20,28 +20,6 @@ _Aprende los conceptos básicos para crear tu primer flujo de CI/CD para tus pro
   Do not use quotes on the <details> tag attributes.
 -->
 
-<details id=0>
-<summary><h2>Bienvenido</h2></summary>
-
-¡Bienvenido al Curso Básico de GitHub Actions de Platzi! en este curso aprenderás a realizar flujos de Integración y Despliegue Continúo (CI/CD) para tus proyectos personales, así como automatizar cualquier proceso que que te ayude a impulsar tu flujo de trabajo :rocket:.
-
-- **¿Para quíen es este curso?**: Desarrolladores backend, frontend y Full Stack; DevOps; SREs, Estudiantes, Líderes de equipo, cualquier usuario de GitHub.
-- **¿Qué aprenderás?**: Aprenderás a automatizar los procesos de compilación, pruebas y despliegue de sus proyectos.
-- **¿Qué construirás?**: Una serie de flujos de trabajo que usen los principales conceptos detrás de GitHub Actions (Jobs, Steps, Actions, Variables, Expresiones, entre otros).
-- **Prerequisitos**: Conocimientos básicos sobre Git y GitHub (realizar commits y push; crear pull requests e issues; agregar etiquetas).
-- **Duración**: Este curso tendrá 5 pasos y lo podrás terminar en menos de 2 horas.
-
-## ¿Cómo iniciar el curso?
-
-1. Haz click derecho en **Start course** y abre el enlace en una nueva pestaña.
-   <br />[![start-course](https://user-images.githubusercontent.com/1221423/218596841-0645fe1a-4aaf-4f51-9ab3-8aa2d3fdd487.svg)](https://github.com/platzi/curso-github-actions/generate)
-2. En la nueva pestaña, llena los campos para crear un nuevo repositorio.
-   - En owner, elige tu cuenta personal o la de tu organización.
-   - Es recomendado dejar el repositorio como público ya que los privados consumen [minutos que pueden ser cobrados](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   ![Create a new repository](https://user-images.githubusercontent.com/1221423/218594143-e60462b6-9f2a-4fa3-80de-063ac5429aab.png)
-3. Después de que el nuevo repositorio ha sido creado, espera por cerca de 20 segundos; luego, recarga la página. Sigue los pasos que aparezcan en el README del repositorio.
-
-</details>
 
 <!--
   <<< Author notes: Step 1 >>>
@@ -395,10 +373,6 @@ El uso de variables de entorno es lo único que te falta por aprender de los pri
 <details id=X>
 <summary><h2>Cierre</h2></summary>
 
-_¡Felicidades! haz completado esta sección del Curso Básico de GitHub Actions de Platzi 💚_
-
-<img src=TBD-celebrate-image alt=celebrate width=300 align=right>
-
 Ya conoces los principales conceptos para crear workflows que te sirvan para automatizar todo tipo de tareas incluidas las de integración y despliegue continúo.
 
 Has aprendido sobre:
@@ -422,12 +396,3 @@ Has aprendido sobre:
 - Puedes automatizar todo tipo de tareas en tus repositorios para mantener un mejor orden y control.
 
 </details>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-&copy; 2023 Platzi &bull; [Código de Conducta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
