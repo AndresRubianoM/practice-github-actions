@@ -1,0 +1,33 @@
+name: testing triggers combination
+on: 
+  push:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'mesage to send'
+        required: true
+        default: 'nothing to add'
+        type: string
+  issues:
+  pull_request:
+jobs:
+  print_manual_message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: aprendiendo-github-actions
+      - name: Print manual message
+        run: echo "This is the manual message ${{ inputs.message }}."
+  execute_hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: aprendiendo-github-actions
+      - name: define username
+        run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
+      - name: run script
+        run: python hello_world.py
