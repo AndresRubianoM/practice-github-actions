@@ -1,0 +1,12 @@
+name: testing variables
+on:
+  push:
+    branches:
+      - aprendiendo-github-actions
+jobs:
+  variables:
+    name: testing variables
+    runs-on: ubuntu-latest
+    steps:
+      - name: print the repository variables
+        run: echo "the repository variable is ${{ vars.YEAR }}"

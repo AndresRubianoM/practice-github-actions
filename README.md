@@ -20,6 +20,7 @@ _Aprende los conceptos básicos para crear tu primer flujo de CI/CD para tus pro
   Do not use quotes on the <details> tag attributes.
 -->
 
+
 <!--
   <<< Author notes: Step 1 >>>
   Choose 3-5 steps for your course.

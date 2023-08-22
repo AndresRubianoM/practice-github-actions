@@ -1,0 +1,14 @@
+name: teting contexts
+on:
+  push:
+    branches:
+      - aprendiendo-github-actions
+jobs:
+  contexts_test:
+    name: test different contexts values
+    runs-on: ubuntu-latest
+    steps:
+      - name: general context variables
+        run: echo "we are running on branch ${{ github.ref_name }} and the action was ${{ github.event_name }} and the variable of the env is $VARIABLE"
+        env:
+          VARIABLE: this is the step env variable
