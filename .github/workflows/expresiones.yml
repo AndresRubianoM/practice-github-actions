@@ -1,0 +1,13 @@
+name: testing functions
+on: [push]
+jobs:
+  functions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: testing functions
+        run: echo "This is the number $NUMBER and the message is $MESSAGE"
+        env:
+          NUMBER: ${{ 1995 }}
+          MESSAGE: this is the test message
